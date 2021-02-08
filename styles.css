@@ -2,6 +2,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 nav {
   width: 4%;
   height: 100vh;
@@ -32,4 +33,18 @@ li {
   background-image: url(home-hero.png);
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+.welcome {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+.button-color {
+  background-color: #ff9900;
+  color: white;
+}
+h1,
+h4 {
+  margin: 20px 0px;
 }

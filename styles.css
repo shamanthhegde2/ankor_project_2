@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 4%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  color: #ff9900;
+  font-size: 23px;
+  padding: 15px 0px;
+  position: fixed;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin: 25px 15px;
+}
+.bottom {
+  margin-top: auto;
+  margin-bottom: 50%;
+}
+.top-section {
+  margin-left: 4%;
+  height: 80%;
+  background-image: url(home-hero.png);
+  background-position: center;
+  background-size: cover;
+}

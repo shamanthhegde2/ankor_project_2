@@ -14,8 +14,13 @@ nav {
   font-size: 23px;
   padding: 15px 0px;
   position: fixed;
+  box-shadow: 4px 4px 20px black;
+  padding: 0px;
 }
-
+.main-logo {
+  background-color: #f8f8f8;
+  padding: 15px 100%;
+}
 ul {
   list-style-type: none;
   padding: 0;
